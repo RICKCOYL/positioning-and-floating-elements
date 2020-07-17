@@ -1,0 +1,39 @@
+/* NAV BAR */
+header nav {
+    display: flex;
+    flex-direction: row;
+    height: 41px;
+    background-color: #ffffff;
+    width: auto;
+    position: fixed;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    background-color: blue;
+
+
+}
+
+header .icon ul li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.logo,
+img {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+header .nav-button {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 920px;
+
+}
+
+header .nav-button button {
+    margin-left: 10px;
+    background-color: #326891;
+    color: #ffffff;
+}
