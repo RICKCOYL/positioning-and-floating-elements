@@ -1,38 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #333;
+}
+
 /* NAV BAR */
 header nav {
-    display: flex;
-    height: 41px;
-    background-color: #ffffff;
-    width: 100%;
-    align-items: center;
-    justify-content: space-between;
-    position: fixed;
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
+  display: flex;
+  height: 41px;
+  background-color: #ffffff;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  top: 0;
 }
 
 header {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 header img {
-    width: 200px;
+  width: 200px;
 }
 
 .menu-lens {
-    display: flex;
+  display: flex;
 }
 
 .nav-button button {
-    margin-right: 20px;
-    background-color: #326891;
-    color: #ffffff;
+  margin-right: 10px;
+  background-color: #326891;
+  color: #ffffff;
+  padding: 8px;
+  border: 0;
+  border-radius: 3px;
+  justify-content: space-between;
+  font-size: 10px;
+  font-weight: bolder;
 }
 
 .lens {
-    margin-left: 40px;
+  margin-left: 40px;
+}
+.showcase img {
+  /*margin: 0 auto;*/
+  /* justify-content: center; */
+  width: 100%;
+}
+
+.showcase {
+  margin: 80px auto 0 auto;
+  width: 1000px;
+}
+.showcase h1 {
+  text-align: center;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.box-1,
+h2,
+h3,
+h4 {
+  display: block;
+  box-sizing: border-box;
+  margin: 30px 360px 30px 360px;
+}
+.box-1 h3 {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.box-1 h4 {
+  font-size: 14px;
+  margin-bottom: 35px;
+  font-weight: lighter;
+}
+.box-1 p {
+  font-size: 22px;
+  line-height: 35px;
+}
+.editors-picks {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.editors-picks h3 {
+  margin: 0 0 0 700px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.editors-picks img {
+  margin: 0 0 0 700px;
+  height: 90px;
+  width: 100px;
+}
+.box-1 h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
 }
 
 .menu {
-    margin-left: 20px;
+  margin-left: 20px;
 }
