@@ -82,21 +82,34 @@ h4 {
   font-size: 22px;
   line-height: 35px;
 }
-.editors-picks {
+.editors-pick h3 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  margin: 0 100px 17px 300px; 
+}
+hr {
+  margin: 5px 100px 5px 300px;
+}
+.editors-pick {
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  width: 200px;
+  padding-top: 50px;
+  float: right;
+  margin-top: -110px ;
 }
-.editors-picks h3 {
+/* .editors-pick {
   margin: 0 0 0 700px;
   font-size: 16px;
   font-weight: bold;
-}
+} */
 
 .editors-picks img {
-  margin: 0 0 0 700px;
-  height: 90px;
-  width: 100px;
+  height: 75px;
+  width: 75px;
+  margin: 0 100px 0 300px;
+  
 }
 .box-1 h2 {
   font-size: 22px;
