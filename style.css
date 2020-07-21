@@ -6,6 +6,7 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  /* overflow: hidden; */
 }
 .nav-container {
   max-width: 1320px;
@@ -54,8 +55,34 @@ header img {
   display: flex;
 }
 
-.nav-button {
+.icons li {
+  margin-right: 15px;
 }
+
+.nav-button {
+  display: flex;
+}
+.subscribe {
+  position: relative;
+  right: 7px;
+  padding: 7px 12px;
+  background-color: #567b95;
+  box-shadow: none;
+  border-radius: 3px;
+  color: #fff;
+  border: none;
+  font-size: 12px;
+}
+
+.login {
+  background-color: #567b95;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  padding: 7px 12px;
+  font-size: 12px;
+}
+
 button:hover {
   cursor: pointer;
   background-color: #466880;
