@@ -122,17 +122,18 @@ hr {
 
 .mid-image {
   width: 1000px;
-  position: relative;
+  position: absolute;
   left: 150px;
+  z-index: -10;
 }
 
-.The-Theory-of-Inflation {
+/*.The-Theory-of-Inflation {
   display: grid;
   grid-template-columns: 1fr 1fr fr 1fr;
   grid-template-rows: 1fr 1fr;
   /* width: 100px; */
-  /* grid-gap: 20em; */
-  /* grid-auto-rows: minmax(100px, auto); */
+/* grid-gap: 20em; */
+/* grid-auto-rows: minmax(100px, auto); 
   background-color: lightcoral;
   position: relative;
   left: 500px;
@@ -147,4 +148,26 @@ hr {
   font-size: 15px;
   position: relative;
   right: 1000px;
+}
+*/
+.inflation-container {
+  position: relative;
+  padding-bottom: 50px;
+}
+.inflation-container .image-articles-container {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.image-articles-container div {
+  width: 228px;
+  margin-top: 150px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+}
+.image-articles-container span {
+  font-weight: bold;
+  font-size: 11px;
+  margin-right: 10px;
+  font-family: Arial, Helvetica, sans-serif;
 }
