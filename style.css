@@ -8,6 +8,7 @@
   box-sizing: border-box;
   /* overflow: hidden;*/
 }
+
 .nav-container {
   max-width: 1320px;
   margin: 0 auto;
@@ -15,6 +16,7 @@
   align-items: center;
   justify-content: space-between;
 }
+
 body {
   background-color: #fff;
   font-size: 14px;
@@ -22,9 +24,11 @@ body {
   line-height: 1.4;
   color: #000;
 }
+
 ul {
   list-style: none;
 }
+
 /* eader*/
 header {
   position: fixed;
@@ -42,6 +46,7 @@ header ul {
   margin: 0 20px;
   width: 210px;
 }
+
 header .icons {
   justify-content: flex-start;
 }
@@ -50,6 +55,7 @@ header img {
   width: 200px;
   height: 40px;
 }
+
 .icons {
   margin-left: 7px;
   display: flex;
@@ -62,6 +68,7 @@ header img {
 .nav-button {
   display: flex;
 }
+
 .subscribe {
   position: relative;
   right: 7px;
@@ -87,11 +94,13 @@ button:hover {
   cursor: pointer;
   background-color: #466880;
 }
+
 /*main-section image*/
 .main-section figure img {
   width: 100%;
   margin-bottom: 10px;
 }
+
 .main-section {
   margin-top: 100px;
   padding: 0 90px;
@@ -123,21 +132,80 @@ figure caption span {
   color: #888;
   font-size: 13px;
 }
+
 .editors-info,
 h3,
 h4 {
   display: block;
-  margin-left: 400px;
+  margin-left: 350px;
   font-family: nyt-franklin;
 }
+
 .editors-info h3 {
   font-size: 17px;
   font-weight: bolder;
   color: #333;
   margin-bottom: 30px;
 }
+
 .editors-info h4 {
   font-size: 14px;
   font-weight: lighter;
   margin-bottom: 10px;
+}
+
+.social-icons .social-media-icons {
+  margin-left: 20px;
+  background-color: #eee;
+  width: 27px;
+  height: 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.social-media-icons li {
+  position: relative;
+  left: 700px;
+  bottom: 30px;
+}
+
+.comment {
+  position: relative;
+  left: 100px;
+  bottom: 27px;
+}
+
+.media-spacing {
+  margin-left: 10px;
+}
+
+.comment-share {
+  margin-left: 10px;
+}
+
+.box-1 {
+  margin: 20px 360px 20px 360px;
+  font-size: 20px;
+  line-height: 1.6em;
+}
+
+.editors-picks img {
+  width: 30px;
+}
+
+.inflation-container img {
+  width: 50px;
+
+}
+
+.figure-3 img {
+  width: 600px;
+  margin: 0 0 0 370px;
+}
+
+.figure-3-caption {
+
+  text-align: center;
 }
