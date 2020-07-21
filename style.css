@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   color: #333;
+  overflow: hidden;
 }
 
 /* NAV BAR */
@@ -46,6 +47,7 @@ header img {
 .lens {
   margin-left: 40px;
 }
+
 .showcase img {
   /*margin: 0 auto;*/
   /* justify-content: center; */
@@ -56,11 +58,13 @@ header img {
   margin: 80px auto 0 auto;
   width: 1000px;
 }
+
 .showcase h1 {
   text-align: center;
   font-size: 35px;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .box-1,
 h2,
 h3,
@@ -69,28 +73,49 @@ h4 {
   box-sizing: border-box;
   margin: 30px 360px 30px 360px;
 }
+
+.editor-info-section {
+}
+
+.editor-info {
+  width: 600px;
+  justify-self: center;
+  align-self: center;
+}
+
+.social-media-icons {
+  display: flex;
+  float: right;
+  margin: 0 5px 20px 5px;
+}
+
 .box-1 h3 {
   font-size: 16px;
   margin-bottom: 30px;
 }
+
 .box-1 h4 {
   font-size: 14px;
   margin-bottom: 35px;
   font-weight: lighter;
 }
+
 .box-1 p {
   font-size: 22px;
   line-height: 35px;
 }
+
 .editors-pick h3 {
   display: flex;
   flex-direction: row;
   margin-top: 15px;
   margin: 0 100px 17px 300px;
 }
+
 hr {
   margin: 5px 100px 5px 300px;
 }
+
 .editors-pick {
   display: flex;
   flex-direction: column;
@@ -99,6 +124,7 @@ hr {
   float: right;
   margin-top: -110px;
 }
+
 /* .editors-pick {
   margin: 0 0 0 700px;
   font-size: 16px;
@@ -110,6 +136,7 @@ hr {
   width: 75px;
   margin: 0 100px 0 300px;
 }
+
 .box-1 h2 {
   font-size: 22px;
   margin-bottom: 20px;
@@ -137,6 +164,7 @@ hr {
   position: relative;
   left: 500px;
 }
+
 .The-Theory-of-Inflation :nth-child(odd) {
   background-color: lightgray;
 }
