@@ -6,7 +6,7 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  /* overflow: hidden; */
+  /* overflow: hidden;*/
 }
 .nav-container {
   max-width: 1320px;
@@ -87,14 +87,57 @@ button:hover {
   cursor: pointer;
   background-color: #466880;
 }
+/*main-section image*/
+.main-section figure img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.main-section {
+  margin-top: 100px;
+  padding: 0 90px;
+}
 
-figure figcaption {
+.main-section h1 {
+  font-size: 40px;
+  width: 600px;
+  font-weight: 700;
+  font-style: italic;
+  margin-bottom: 20px;
+  text-align: center;
+  position: relative;
+  left: 100px;
+}
+
+.main-section figure {
+  padding: 0 55px;
+  margin-bottom: 40px;
+}
+
+figure caption {
   font-size: 14px;
   color: #666;
   margin-right: 270px;
 }
 
-figure figcaption span {
+figure caption span {
   color: #888;
   font-size: 13px;
+}
+.editors-info,
+h3,
+h4 {
+  display: block;
+  margin-left: 400px;
+  font-family: nyt-franklin;
+}
+.editors-info h3 {
+  font-size: 17px;
+  font-weight: bolder;
+  color: #333;
+  margin-bottom: 30px;
+}
+.editors-info h4 {
+  font-size: 14px;
+  font-weight: lighter;
+  margin-bottom: 10px;
 }
