@@ -23,7 +23,6 @@ body {
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
   line-height: 1.4;
   color: #000;
-
 }
 
 ul {
@@ -149,7 +148,6 @@ h4 {
   margin-bottom: 30px;
 }
 
-
 .editors-info h4 {
   font-size: 14px;
   font-weight: lighter;
@@ -218,7 +216,6 @@ h4 {
   border: none;
   font-size: 15px;
   margin: 50px 550px;
-
 }
 
 .top-line {
@@ -237,7 +234,6 @@ h4 {
   width: 50px;
   position: relative;
   right: -70px;
-
 }
 
 .flex {
@@ -254,9 +250,7 @@ h4 {
   float: right;
   position: relative;
   bottom: 250px;
-
 }
-
 
 .editor-picks h3 {
   border-bottom: 1px solid #ccc;
@@ -271,12 +265,85 @@ h4 {
 
 .editor-picks .editor-picks-items li a {
   display: flex;
-  font-size: 16px;
-  line-height: 1;
+  font-size: 12px;
+  line-height: 1.4;
+  color: #000;
+  text-decoration: none;
+}
+.editor-picks-items li a :hover {
+  text-decoration: underline;
+  color: #333;
 }
 
 .editor-picks img {
-  width: 80px;
-  height: 80px;
+  width: 75px;
+  height: 75px;
   margin-right: 10px;
+}
+/************** links ****************/
+
+.links {
+  max-width: 1280px;
+  margin: 20px auto 50px;
+  padding: 40px;
+}
+
+.links-logo div {
+  border-top: 1px #e2e2e2 solid;
+  justify-content: space-between;
+  margin-top: 3px;
+}
+
+.mid-links {
+  justify-content: space-between;
+  margin: 20px 0;
+  border-bottom: 1px solid #e2e2e2;
+  padding-bottom: 10px;
+}
+.mid-links a {
+  text-decoration: none;
+  color: #000;
+  line-height: 1.5;
+}
+.mid-links li a :hover {
+  text-decoration: underline;
+  color: #333;
+}
+.goto a {
+  text-decoration: none;
+  color: #567b95;
+  font-size: 11px;
+}
+.goto li a :hover {
+  text-decoration: underline;
+  color: #333;
+}
+.mid-links > div {
+  flex: 1;
+  text-decoration: none;
+  color: #000;
+}
+
+.mid-links .li-bold {
+  font-weight: bolder;
+  font-size: 16px;
+  text-decoration: none;
+  color: #000;
+}
+
+/* .mid-links .li-bold svg {
+  width: 13px;
+  height: 13px;
+  margin-right: 5px;
+  text-decoration: none;
+  color: #000;
+} */
+
+.links .mid-links div:last-child {
+  border-left: 1px solid #e2e2e2;
+  padding-left: 15px;
+}
+
+.links .mid-links div:last-child ul li:nth-child(7) {
+  border-bottom: 1px solid #e2e2e2;
 }
