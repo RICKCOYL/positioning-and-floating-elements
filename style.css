@@ -23,6 +23,7 @@ body {
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
   line-height: 1.4;
   color: #000;
+
 }
 
 ul {
@@ -148,6 +149,7 @@ h4 {
   margin-bottom: 30px;
 }
 
+
 .editors-info h4 {
   font-size: 14px;
   font-weight: lighter;
@@ -207,47 +209,74 @@ h4 {
 .figure-3-caption {
   text-align: center;
 }
-/* editors picks */
-.subscribe-links {
-  display: block;
-  float: left;
-  margin: 30px;
-  padding: 5px;
-}
-.subscribe-links,
-p,
-hr,
-a {
+
+/* subscribe link */
+.subscribe-link {
+  width: 100%;
   justify-content: center;
+  font-weight: bold;
+  border: none;
+  font-size: 15px;
+  margin: 50px 550px;
+
 }
-hr {
-  width: 25%;
+
+.top-line {
+  margin-bottom: 20px;
 }
-.editors-picks-articles article a {
-  margin: auto 0 auto 10px;
-  color: #333;
+
+.bottom-line {
+  margin-top: 20px;
+}
+
+.subscribe-link a {
   text-decoration: none;
-  font-size: 10px;
 }
-.editors-picks {
+
+.subscribe-link-hr {
+  width: 50px;
+  position: relative;
+  right: -70px;
+
+}
+
+.flex {
   display: flex;
-  width: 210px;
-  margin-left: 700px;
-  justify-content: flex-end;
 }
 
-.editors-picks > h3 {
-  padding-bottom: 10px;
-  border-bottom: 1px solid #d4d4d4;
+.flex-column {
+  flex-direction: column;
+}
+
+/*  */
+.editor-picks {
+  padding: 10px 20px;
+  float: right;
+  position: relative;
+  bottom: 250px;
+
+}
+
+
+.editor-picks h3 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
   margin-bottom: 15px;
+  font-size: 14px;
 }
 
-.editors-picks-articles article {
+.editor-picks .editor-picks-items li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.editor-picks .editor-picks-items li a {
   display: flex;
-  margin-bottom: 15px;
+  font-size: 16px;
+  line-height: 1;
 }
 
-.editors-picks-articles article img {
-  width: 75px;
-  height: 75px;
+.editor-picks img {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
 }
