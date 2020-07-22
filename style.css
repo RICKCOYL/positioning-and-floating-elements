@@ -117,15 +117,15 @@ button:hover {
   left: 100px;
 }
 
-.main-section figure {
+.main-section figure img {
   padding: 0 55px;
   margin-bottom: 40px;
 }
 
-figure caption {
-  font-size: 14px;
+figure img caption {
+  font-size: px;
   color: #666;
-  margin-right: 270px;
+  margin: 75%;
 }
 
 figure caption span {
@@ -197,7 +197,6 @@ h4 {
 
 .inflation-container img {
   width: 50px;
-
 }
 
 .figure-3 img {
@@ -206,6 +205,49 @@ h4 {
 }
 
 .figure-3-caption {
-
   text-align: center;
+}
+/* editors picks */
+.subscribe-links {
+  display: block;
+  float: left;
+  margin: 30px;
+  padding: 5px;
+}
+.subscribe-links,
+p,
+hr,
+a {
+  justify-content: center;
+}
+hr {
+  width: 25%;
+}
+.editors-picks-articles article a {
+  margin: auto 0 auto 10px;
+  color: #333;
+  text-decoration: none;
+  font-size: 10px;
+}
+.editors-picks {
+  display: flex;
+  width: 210px;
+  margin-left: 700px;
+  justify-content: flex-end;
+}
+
+.editors-picks > h3 {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #d4d4d4;
+  margin-bottom: 15px;
+}
+
+.editors-picks-articles article {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.editors-picks-articles article img {
+  width: 75px;
+  height: 75px;
 }
