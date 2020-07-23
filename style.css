@@ -22,6 +22,7 @@ body {
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
   line-height: 1.4;
   color: #000;
+  width: 1300px;
 }
 
 a {
@@ -99,10 +100,6 @@ button:hover {
 }
 
 /*main-section image*/
-.editors-picks img {
-  width: 30px;
-}
-
 .main-section figure img {
   width: 100%;
   margin-bottom: 10px;
@@ -122,10 +119,6 @@ button:hover {
   text-align: center;
   position: relative;
   left: 100px;
-}
-
-.inflation-container img {
-  width: 50px;
 }
 
 .main-section figure img {
@@ -200,6 +193,14 @@ h4 {
   margin: 20px 360px 20px 360px;
   font-size: 20px;
   line-height: 1.6em;
+}
+
+.editors-picks img {
+  width: 30px;
+}
+
+.inflation-container img {
+  width: 50px;
 }
 
 .figure-3 img {
