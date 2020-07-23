@@ -329,7 +329,7 @@ h4 {
 .extra-info p {
   font-size: 12px;
   text-align: center;
-  color: #466880
+  color: #466880;
 }
 
 .extra-info p a {
@@ -339,7 +339,6 @@ h4 {
 .extra-info p a:hover {
   text-decoration: underline;
 }
-
 
 /* comments-media-sec */
 .social-icons .social-media-icons li {
@@ -356,20 +355,19 @@ h4 {
 .social-icons button {
   padding: 7px 70px;
   position: relative;
-  top: 60px;
+  top: 20px;
   left: 350px;
   background-color: #567b95;
   border-radius: 3px;
-  border: 2px solid black;
+  border: 0;
   color: #fff;
 }
 
 .social-media-icons li {
   position: relative;
   left: 900px;
-  bottom: -30px;
+  bottom: 10px;
 }
-
 
 /************** links ****************/
 
@@ -414,7 +412,7 @@ h4 {
   color: #333;
 }
 
-.mid-links>div {
+.mid-links > div {
   flex: 1;
   text-decoration: none;
   color: #000;
@@ -434,4 +432,31 @@ h4 {
 
 .links .mid-links div:last-child ul li:nth-child(7) {
   border-bottom: 1px solid #e2e2e2;
+}
+/* spacs-astronomy */
+
+.grid-section {
+  display: grid;
+  grid-auto-rows: 800px;
+  grid-template-columns: 70% 30%;
+  grid-gap: 1em;
+}
+
+.space-astronomy {
+  display: grid;
+  background-color: white;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+.space-astronomy img {
+  width: 100%;
+}
+.most-popular {
+  display: grid;
+  background-color: white;
+  grid-template-rows: repeat(10, 1fr);
+}
+.most-popular hr {
+  position: relative;
+  left: 50px;
 }
