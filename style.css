@@ -31,7 +31,6 @@ body {
   line-height: 1.4;
   color: #000;
   max-height: 100%;
-  /* overflow-y: hidden; */
 }
 
 a {
@@ -122,15 +121,18 @@ button:hover {
 }
 
 .main-section h1 {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 700;
-  width: 5px;
+  width: 100%;
   font-style: italic;
+  margin-top: 60px;
+  margin-left: 200px;
 }
 
 .main-section figure img {
   padding: 0 55px;
   margin-bottom: 40px;
+  margin-top: 50px;
 }
 
 .cap caption {
@@ -142,6 +144,16 @@ button:hover {
 .cap caption span {
   color: #888;
   font-size: 13px;
+}
+
+.showcase-caption {
+  position: relative;
+  left: 50px;
+  bottom: 40px;
+}
+
+.freidman {
+  font-size: 12px;
 }
 
 .editors-info,
@@ -165,32 +177,11 @@ h4 {
   margin-bottom: 10px;
 }
 
-.social-icons .social-media-icons {
-  margin: 0 auto;
-  background-color: #eee;
-  width: 27px;
-  height: 27px;
-  display: flex;
-  justify-content: center;
-  border-radius: 5px;
-}
-
-.social-media-icons li {
-  position: relative;
-  bottom: 30px;
-  margin: 0 auto;
-}
-
-.comment {
-  position: relative;
-  bottom: 27px;
+.social-icons {
+  margin-top: 30px;
 }
 
 .media-spacing {
-  margin-left: 10px;
-}
-
-.comment-share {
   margin-left: 10px;
 }
 
@@ -232,7 +223,7 @@ h4 {
 }
 
 .bottom-line {
-  margin-top: 20px;
+  margin-top: 70px;
 }
 .subscribe-link {
   margin: 0 auto;
@@ -244,7 +235,7 @@ h4 {
 }
 
 .subscribe-link-hr {
-  width: 50px;
+  width: 60px;
   position: relative;
   margin: 0 auto;
 }
@@ -257,13 +248,15 @@ h4 {
   flex-direction: column;
 }
 
-/*  */
+/* ASIDE */
+
 .editor-picks {
-  padding: 10px 20px;
   float: right;
   position: relative;
-  /* bottom: 220px; */
-  left: 250px;
+  bottom: 220px;
+  left: 300px;
+  height: auto;
+  width: auto;
 }
 
 .editor-picks h3 {
@@ -354,6 +347,11 @@ h4 {
 }
 
 /* comments-media-sec */
+.social-media-icons {
+  position: relative;
+  left: 300px;
+  bottom: 56px;
+}
 .social-icons .social-media-icons li {
   margin-left: 20px;
   background-color: #eee;
@@ -362,6 +360,7 @@ h4 {
   display: flex;
   justify-content: center;
   align-items: center;
+
   border-radius: 50%;
 }
 
@@ -427,6 +426,20 @@ h4 {
   font-size: 13px;
   font-weight: lighter;
 }
+
+.subscribe-link {
+  margin: 70px 0;
+}
+
+.subscribe-link p {
+  position: relative;
+  left: 250px;
+  margin: 5px 0;
+}
+.subscribe-link-section {
+  color: #000;
+}
+
 .footer-links li {
   line-height: 2em;
 }
@@ -451,6 +464,22 @@ h4 {
 
 .links .mid-links div:last-child ul li:nth-child(7) {
   border-bottom: 1px solid #e2e2e2;
+}
+
+.bottom-social-media-icons {
+  margin-top: 30px;
+  margin-bottom: 100px;
+  justify-content: space-between;
+}
+
+.bottom-ul-social-icons li {
+  margin-left: 40px;
+}
+
+.bottom-social-media-icons button {
+  padding: 7px 12px;
+  background-color: #466880;
+  border-radius: 5px;
 }
 
 /* spacs-astronomy */
@@ -543,7 +572,10 @@ h4 {
 }
 
 .editor-pick-section .editors-pick-images-section img {
-  width: 310px;
+  width: 280px;
+}
+.editors-pick-images-section p a {
+  color: #000;
 }
 
 .editors-pick-images-section {
@@ -572,6 +604,11 @@ h4 {
 .bottom-logo img {
   width: 200px;
   height: 40px;
+}
+
+.goto {
+  color: #000;
+  font-size: 12px;
 }
 /* footer */
 
