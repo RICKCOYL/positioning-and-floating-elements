@@ -6,7 +6,6 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  /* overflow: hidden;*/
 }
 
 .nav-container {
@@ -23,6 +22,7 @@ body {
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
   line-height: 1.4;
   color: #000;
+  width: 1300px;
 }
 
 a {
@@ -412,7 +412,7 @@ h4 {
   color: #333;
 }
 
-.mid-links>div {
+.mid-links > div {
   flex: 1;
   text-decoration: none;
   color: #000;
@@ -464,7 +464,6 @@ h4 {
   background-color: #000;
 }
 
-
 .grid-section-title h3 {
   font-size: 16px;
 }
@@ -498,7 +497,6 @@ h4 {
   position: relative;
   right: 7px;
   top: 10px;
-
 }
 
 .most-popular a {
@@ -545,4 +543,35 @@ h4 {
 .bottom-logo img {
   width: 200px;
   height: 40px;
+}
+/* footer */
+
+.links .links-end ul {
+  justify-content: space-between;
+  padding: 10px 80px;
+}
+
+.links .links-end ul a {
+  text-decoration: none;
+  color: #666;
+  font-size: 11px;
+}
+
+.links .links-end ul a:not(:last-child) {
+  margin-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-top: 1px solid black;
+  background-color: #fff;
+}
+
+.footer-container {
+  width: 1320px;
+  margin: 0 auto;
+  padding: 20px 0;
 }
