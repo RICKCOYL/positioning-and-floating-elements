@@ -28,9 +28,10 @@ body {
   background-color: #fff;
   font-size: 14px;
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
-  line-height: 1.4;
+  line-height: 1.4em;
   color: #000;
   max-height: 100%;
+  overflow-x: hidden;
 }
 
 a {
@@ -41,7 +42,7 @@ ul {
   list-style: none;
 }
 
-/*header*/
+/* header */
 header {
   position: fixed;
   left: 0;
@@ -62,6 +63,33 @@ header ul {
 .icons {
   margin-left: 7px;
   display: flex;
+  color: #000;
+}
+
+.subscribe-link a {
+  text-decoration: none;
+}
+
+.goto a {
+  text-decoration: none;
+  color: #567b95;
+  font-size: 5px;
+}
+
+.mid-links a {
+  line-height: 1.5;
+}
+
+.most-popular a {
+  color: #000;
+}
+
+.grid-images-section a {
+  color: #000;
+}
+
+.icons li a {
+  color: #000;
 }
 
 header .icons {
@@ -107,7 +135,7 @@ button:hover {
   background-color: #466880;
 }
 
-/*main-section image*/
+/* main-section image */
 .inflation-container img {
   width: 50px;
 }
@@ -115,6 +143,7 @@ button:hover {
 .figure-3 img {
   width: 600px;
   margin: 0 auto;
+  margin-top: 20px;
 }
 
 .editor-picks-items img {
@@ -217,6 +246,11 @@ h4 {
   justify-content: start;
 }
 
+.sg {
+  position: relative;
+  top: 20px;
+}
+
 /* subscribe link */
 .subscribe-link {
   width: 100%;
@@ -236,10 +270,6 @@ h4 {
   margin-top: 70px;
 }
 
-.subscribe-link a {
-  text-decoration: none;
-}
-
 .subscribe-link-hr {
   width: 60px;
   position: relative;
@@ -254,14 +284,28 @@ h4 {
   flex-direction: column;
 }
 
+.bg-get {
+  margin-top: 30px;
+}
+
+.bg-get h2 {
+  font-size: 25px;
+}
+
 /* aside editor picks */
+.aside {
+  float: right;
+}
+
 .editor-picks {
   padding: 10px 20px;
   font-size: small;
-  width: 130px;
+  width: 317px;
+  position: absolute;
+}
+
+.editor-picks .editor-picks-items {
   float: right;
-  position: relative;
-  left: 100px;
 }
 
 .black {
@@ -287,8 +331,8 @@ h4 {
   position: relative;
 }
 
-.footer-links li {
-  line-height: 2em;
+.footer-links-li {
+  line-height: 1.7em;
 }
 
 .bottom-ul-social-icons li {
@@ -308,24 +352,6 @@ h4 {
 
 .editor-picks .editor-picks-items li:not(:last-child) {
   margin-bottom: 10px;
-}
-
-.goto a {
-  text-decoration: none;
-  color: #567b95;
-  font-size: 5px;
-}
-
-.mid-links a {
-  line-height: 1.5;
-}
-
-.most-popular a {
-  color: #000;
-}
-
-.grid-images-section a {
-  color: #000;
 }
 
 .extra-info p a {
@@ -354,6 +380,8 @@ h4 {
 .iframe-con {
   width: 610px;
   height: 360px;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 /* Inflation section */
@@ -632,8 +660,27 @@ footer {
   background-color: #fff;
 }
 
-.footer-container {
-  width: 1320px;
-  margin: 0 auto;
-  padding: 20px 0;
+.fixed-footer {
+  border-top: 1px solid #333;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.fixed-footer .container {
+  padding: 10px;
+  font-size: 15px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.fixed-footer-container {
+  justify-content: space-between;
+}
+
+.expand-text {
+  position: relative;
+  left: 200px;
 }

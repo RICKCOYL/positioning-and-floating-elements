@@ -43,15 +43,14 @@ Install and run a live server plugin on you IDE/Text editor and run it from the 
 
 👤 **SHONIBARE COMFORT**
 
-- Github: [@githubhandle](https://github.com/Adewunmi97)
-- Twitter: [@twitterhandle](https://twitter.com/ShonibareC)
-- Linkedin: [linkedin](https://www.linkedin.com/in/ceamatu-cristian-viorel-7a5469136/)
+- Github: [@Adewunmi97](https://github.com/Adewunmi97)
+- Twitter: [@ShonibareC](https://twitter.com/ShonibareC)
 
 👤 **RICK OBURU**
 
-- Github: [@githubhandle](https://github.com/RICKCOYL)
-- Twitter: [@twitterhandle](https://twitter.com/rickoburu)
-- Linkedin: [linkedin](https://linkedin.com/in/rick-oburu-8627591a4)
+- Github: [@RICKCOYL](https://github.com/RICKCOYL)
+- Twitter: [@rickoburu](https://twitter.com/rickoburu)
+- Linkedin: [rick OBURU](https://linkedin.com/in/rick-oburu-8627591a4)
 
 ## Show your support
 
