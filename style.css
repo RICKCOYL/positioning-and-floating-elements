@@ -88,6 +88,10 @@ header ul {
   color: #000;
 }
 
+.editors-pick-images-section a {
+  color: #000;
+}
+
 .icons li a {
   color: #000;
 }
@@ -107,6 +111,13 @@ header img {
 
 .nav-button {
   display: flex;
+}
+
+.subscribe-btn {
+  padding: 7px 12px;
+  background-color: #466880;
+  margin-left: 5px;
+  border-radius: 5px;
 }
 
 .subscribe {
@@ -356,10 +367,6 @@ h4 {
 
 .extra-info p a {
   color: #466880;
-}
-
-.editors-pick-images-section p a {
-  color: #000;
 }
 
 .footer-links a:hover {
