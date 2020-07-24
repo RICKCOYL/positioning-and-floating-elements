@@ -1,16 +1,16 @@
 *,
-*::before,
-*::after {
+*::after,
+*::before {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 .container {
   width: 50%;
   margin: 0 auto;
 }
+
 .container-2 {
   width: 80%;
   margin: 0 auto;
@@ -41,7 +41,7 @@ ul {
   list-style: none;
 }
 
-/* eader*/
+/*header*/
 header {
   position: fixed;
   left: 0;
@@ -59,6 +59,11 @@ header ul {
   width: 210px;
 }
 
+.icons {
+  margin-left: 7px;
+  display: flex;
+}
+
 header .icons {
   justify-content: flex-start;
 }
@@ -66,11 +71,6 @@ header .icons {
 header img {
   width: 200px;
   height: 40px;
-}
-
-.icons {
-  margin-left: 7px;
-  display: flex;
 }
 
 .icons li {
@@ -108,10 +108,40 @@ button:hover {
 }
 
 /*main-section image*/
+.inflation-container img {
+  width: 50px;
+}
+
+.figure-3 img {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.editor-picks-items img {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+
+.image-grid-section img {
+  width: 100%;
+}
+
+.space-astronomy img {
+  width: 100%;
+}
+
+.bottom-logo img {
+  width: 200px;
+  height: 40px;
+}
+
 .main-section figure img {
   width: 100%;
-  margin-bottom: 10px;
   margin: 0 auto;
+  padding: 0 55px;
+  margin-bottom: 40px;
+  margin-top: 50px;
 }
 
 .main-section {
@@ -129,14 +159,7 @@ button:hover {
   margin-left: 200px;
 }
 
-.main-section figure img {
-  padding: 0 55px;
-  margin-bottom: 40px;
-  margin-top: 50px;
-}
-
 .cap caption {
-  font-size: px;
   color: #666;
   margin: 75%;
 }
@@ -161,7 +184,6 @@ h3,
 h4 {
   display: block;
   margin: 0 auto;
-  font-family: nyt-franklin;
 }
 
 .editors-info h3 {
@@ -190,15 +212,6 @@ h4 {
   line-height: 1.6em;
 }
 
-.inflation-container img {
-  width: 50px;
-}
-
-.figure-3 img {
-  width: 600px;
-  margin: 0 auto;
-}
-
 .figure-3-caption {
   color: #466880;
   justify-content: start;
@@ -212,6 +225,7 @@ h4 {
   border: none;
   font-size: 14px;
   margin: 0 auto;
+  margin: 70px 0;
 }
 
 .top-line {
@@ -220,10 +234,6 @@ h4 {
 
 .bottom-line {
   margin-top: 70px;
-}
-.subscribe-link {
-  margin: 0 auto;
-  justify-content: center;
 }
 
 .subscribe-link a {
@@ -253,6 +263,7 @@ h4 {
   position: relative;
   left: 100px;
 }
+
 .black {
   color: #000;
 }
@@ -272,8 +283,66 @@ h4 {
   font-size: 14px;
 }
 
+.social-media-icons li {
+  position: relative;
+}
+
+.footer-links li {
+  line-height: 2em;
+}
+
+.bottom-ul-social-icons li {
+  margin-left: 40px;
+}
+
+.social-icons .social-media-icons li {
+  margin-left: 20px;
+  background-color: #eee;
+  width: 27px;
+  height: 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
 .editor-picks .editor-picks-items li:not(:last-child) {
   margin-bottom: 10px;
+}
+
+.goto a {
+  text-decoration: none;
+  color: #567b95;
+  font-size: 5px;
+}
+
+.mid-links a {
+  line-height: 1.5;
+}
+
+.most-popular a {
+  color: #000;
+}
+
+.grid-images-section a {
+  color: #000;
+}
+
+.extra-info p a {
+  color: #466880;
+}
+
+.editors-pick-images-section p a {
+  color: #000;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+  color: #333;
+}
+
+.most-popular a:hover {
+  color: #466880;
 }
 
 .editor-picks .editor-picks-items li a {
@@ -282,16 +351,11 @@ h4 {
   line-height: 1;
 }
 
-.editor-picks-items img {
-  width: 80px;
-  height: 80px;
-  margin-right: 10px;
-}
-
 .iframe-con {
   width: 610px;
   height: 360px;
 }
+
 /* Inflation section */
 .inflation-container {
   max-width: 800px;
@@ -319,10 +383,6 @@ h4 {
   align-items: baseline;
 }
 
-.image-grid-section img {
-  width: 100%;
-}
-
 .inflation-container-subtilte p {
   text-align: left;
   font-size: 13px;
@@ -338,10 +398,6 @@ h4 {
   color: #466880;
 }
 
-.extra-info p a {
-  color: #466880;
-}
-
 .extra-info p a:hover {
   text-decoration: underline;
 }
@@ -352,17 +408,6 @@ h4 {
   left: 300px;
   bottom: 56px;
 }
-.social-icons .social-media-icons li {
-  margin-left: 20px;
-  background-color: #eee;
-  width: 27px;
-  height: 27px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  border-radius: 50%;
-}
 
 .social-icons button {
   padding: 7px 70px;
@@ -371,10 +416,6 @@ h4 {
   border-radius: 3px;
   border: 0;
   color: #fff;
-}
-
-.social-media-icons li {
-  position: relative;
 }
 
 /************** links ****************/
@@ -398,28 +439,15 @@ h4 {
   padding-bottom: 10px;
 }
 
-.mid-links a {
-  line-height: 1.5;
-}
-
 .mid-links li a:hover {
   text-decoration: underline;
   color: #333;
 }
 
-.goto a {
-  text-decoration: none;
-  color: #567b95;
-  font-size: 5px;
-}
 .goto li a:hover {
   text-decoration: underline;
 }
 
-.footer-links a:hover {
-  text-decoration: underline;
-  color: #333;
-}
 .footer-links {
   text-decoration: none;
   color: black;
@@ -427,24 +455,17 @@ h4 {
   font-weight: lighter;
 }
 
-.subscribe-link {
-  margin: 70px 0;
-}
-
 .subscribe-link p {
   position: relative;
   left: 250px;
   margin: 5px 0;
 }
+
 .subscribe-link-section {
   color: #000;
 }
 
-.footer-links li {
-  line-height: 2em;
-}
-
-.mid-links > div {
+.mid-links div {
   flex: 1;
   text-decoration: none;
   color: #000;
@@ -472,10 +493,6 @@ h4 {
   justify-content: space-between;
 }
 
-.bottom-ul-social-icons li {
-  margin-left: 40px;
-}
-
 .bottom-social-media-icons button {
   padding: 7px 12px;
   background-color: #466880;
@@ -487,10 +504,12 @@ h4 {
   width: 100%;
   margin: 0 auto;
 }
+
 .grid-1 {
   width: 90%;
   margin: 0 auto;
 }
+
 .grid-section-title {
   display: flex;
   justify-content: space-between;
@@ -539,10 +558,6 @@ h4 {
   grid-gap: 10px;
 }
 
-.space-astronomy img {
-  width: 100%;
-}
-
 .most-popular {
   display: grid;
   background-color: white;
@@ -555,17 +570,6 @@ h4 {
   top: 10px;
 }
 
-.most-popular a {
-  color: #000;
-}
-.most-popular a:hover {
-  color: #466880;
-}
-
-.grid-images-section a {
-  color: #000;
-}
-
 .editor-pick-section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -573,9 +577,6 @@ h4 {
 
 .editor-pick-section .editors-pick-images-section img {
   width: 280px;
-}
-.editors-pick-images-section p a {
-  color: #000;
 }
 
 .editors-pick-images-section {
@@ -592,7 +593,6 @@ h4 {
   bottom: 30px;
   font-weight: bolder;
   background-color: #000;
-  size: 20;
   height: 3px;
 }
 
@@ -601,15 +601,11 @@ h4 {
   margin: 0 0 10px 10px;
 }
 
-.bottom-logo img {
-  width: 200px;
-  height: 40px;
-}
-
 .goto {
   color: #000;
   font-size: 12px;
 }
+
 /* footer */
 
 .links .links-end ul {
