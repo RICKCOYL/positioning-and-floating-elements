@@ -6,11 +6,11 @@
 
 ## Screenshots of original website
 
-![screenshot](<./ny-times-screenshot(2).png>)
+![screenshot](<./ny-time-screenshot(2).png>)
 
 ## Screenshots of our clone website
 
-![screenshot](<./ny-times-screenshot(3).png>)
+![screenshot](<./ny-time-screenshot(3).png>)
 
 The project is built using Html and Css with an extensive use of the grid, flex and float css properties.
 
