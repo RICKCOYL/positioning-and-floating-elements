@@ -190,10 +190,6 @@ h4 {
   line-height: 1.6em;
 }
 
-.editors-picks img {
-  width: 30px;
-}
-
 .inflation-container img {
   width: 50px;
 }
@@ -248,15 +244,25 @@ h4 {
   flex-direction: column;
 }
 
-/* ASIDE */
-
+/* aside editor picks */
 .editor-picks {
+  padding: 10px 20px;
+  font-size: small;
+  width: 130px;
   float: right;
   position: relative;
-  bottom: 220px;
-  left: 300px;
-  height: auto;
-  width: auto;
+  left: 100px;
+}
+.black {
+  color: #000;
+}
+
+.black :hover {
+  text-decoration: underline;
+}
+
+.Editors-picks hr {
+  width: 50px;
 }
 
 .editor-picks h3 {
@@ -272,22 +278,16 @@ h4 {
 
 .editor-picks .editor-picks-items li a {
   display: flex;
-  font-size: 12px;
-  line-height: 1.4;
-  color: #000;
-  text-decoration: none;
+  font-size: 16px;
+  line-height: 1;
 }
 
-.editor-picks-items li a :hover {
-  text-decoration: underline;
-  color: #333;
-}
-
-.editor-picks img {
-  width: 75px;
-  height: 75px;
+.editor-picks-items img {
+  width: 80px;
+  height: 80px;
   margin-right: 10px;
 }
+
 .iframe-con {
   width: 610px;
   height: 360px;
