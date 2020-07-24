@@ -42,7 +42,7 @@ ul {
   list-style: none;
 }
 
-/* header */
+/*   header    */
 header {
   position: fixed;
   left: 0;
@@ -135,7 +135,7 @@ button:hover {
   background-color: #466880;
 }
 
-/* main-section image */
+/*   main-section image   */
 .inflation-container img {
   width: 50px;
 }
