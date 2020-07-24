@@ -395,6 +395,7 @@ h4 {
 .inflation-container {
   max-width: 800px;
   margin: 0 auto;
+  margin-top: 30px;
   text-align: left;
   font-size: 12px;
   line-height: 1;
@@ -671,6 +672,7 @@ footer {
   left: 0;
   right: 0;
   width: 100%;
+  background-color: #fff;
 }
 
 .fixed-footer .container {
