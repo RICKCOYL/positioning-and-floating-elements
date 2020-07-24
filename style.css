@@ -431,7 +431,7 @@ h4 {
   line-height: 2em;
 }
 
-.mid-links>div {
+.mid-links > div {
   flex: 1;
   text-decoration: none;
   color: #000;
@@ -573,7 +573,6 @@ h4 {
   width: 200px;
   height: 40px;
 }
-
 /* footer */
 
 .links .links-end ul {
