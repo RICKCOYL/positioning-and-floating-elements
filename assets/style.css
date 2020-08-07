@@ -530,4 +530,45 @@ span {
   .first-navbar {
     display: none;
   }
+
+  .showcase-section {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .main-showcase,
+  .aside-showcase {
+    width: 96%;
+    height: 200px;
+    margin: 0 auto;
+    background: linear-gradient(337deg,
+        rgba(0, 0, 0, 0.9) 30%,
+        rgba(220, 20, 20, 0.6) 50%),
+      url(./images/main-showcase-image.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .logo-div {
+    display: none;
+  }
+
+  .showcase-content p,
+  ..showcase-content h1 {
+    background-color: blue;
+    margin-bottom: 20px;
+
+  }
+
+  .showcase-content h1 {
+    font-size: 20px;
+  }
+
+
+
+
+
+
+
+
 }
