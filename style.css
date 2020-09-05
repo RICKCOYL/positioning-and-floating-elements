@@ -1,0 +1,694 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.container-2 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.nav-container {
+  max-width: 1320px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+body {
+  background-color: #fff;
+  font-size: 14px;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  line-height: 1.4em;
+  color: #000;
+  max-height: 100%;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* header */
+header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+  border-bottom: #dbdbdb 1px solid;
+  margin-bottom: 80px;
+  background-color: #fff;
+}
+
+header ul {
+  justify-content: flex-end;
+  margin: 0 20px;
+  width: 210px;
+}
+
+.icons {
+  margin-left: 7px;
+  display: flex;
+  color: #000;
+}
+
+.subscribe-link a {
+  text-decoration: none;
+}
+
+.goto a {
+  text-decoration: none;
+  color: #567b95;
+  font-size: 5px;
+}
+
+.mid-links a {
+  line-height: 1.5;
+}
+
+.most-popular a {
+  color: #000;
+}
+
+.grid-images-section a {
+  color: #000;
+}
+
+.editors-pick-images-section a {
+  color: #000;
+}
+
+.icons li a {
+  color: #000;
+}
+
+header .icons {
+  justify-content: flex-start;
+}
+
+header img {
+  width: 200px;
+  height: 40px;
+}
+
+.icons li {
+  margin-right: 15px;
+}
+
+.nav-button {
+  display: flex;
+}
+
+.subscribe-btn {
+  padding: 7px 12px;
+  background-color: #466880;
+  margin-left: 5px;
+  border-radius: 5px;
+}
+
+.subscribe {
+  position: relative;
+  right: 7px;
+  padding: 7px 12px;
+  background-color: #567b95;
+  box-shadow: none;
+  border-radius: 3px;
+  color: #fff;
+  border: none;
+  font-size: 12px;
+}
+
+.login {
+  background-color: #567b95;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  padding: 7px 12px;
+  font-size: 12px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #466880;
+}
+
+/*  main-section image  */
+.inflation-container img {
+  width: 50px;
+}
+
+.figure-3 img {
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.editor-picks-items img {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+
+.image-grid-section img {
+  width: 100%;
+}
+
+.space-astronomy img {
+  width: 100%;
+}
+
+.bottom-logo img {
+  width: 200px;
+  height: 40px;
+}
+
+.main-section figure img {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 55px;
+  margin-bottom: 40px;
+  margin-top: 50px;
+}
+
+.main-section {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0 90px;
+}
+
+.main-section h1 {
+  font-size: 40px;
+  font-weight: 700;
+  width: 100%;
+  font-style: italic;
+  margin-top: 60px;
+  margin-left: 200px;
+}
+
+.cap caption {
+  color: #666;
+  margin: 75%;
+}
+
+.cap caption span {
+  color: #888;
+  font-size: 13px;
+}
+
+.showcase-caption {
+  position: relative;
+  left: 50px;
+  bottom: 40px;
+}
+
+.freidman {
+  font-size: 12px;
+}
+
+.editors-info,
+h3,
+h4 {
+  display: block;
+  margin: 0 auto;
+}
+
+.editors-info h3 {
+  font-size: 17px;
+  font-weight: bolder;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.editors-info h4 {
+  font-size: 14px;
+  font-weight: lighter;
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  margin-top: 30px;
+}
+
+.media-spacing {
+  margin-left: 10px;
+}
+
+.box-1 {
+  font-size: 22px;
+  line-height: 1.6em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.figure-3-caption {
+  color: #466880;
+  justify-content: start;
+}
+
+.sg {
+  position: relative;
+  top: 20px;
+}
+
+/* subscribe link */
+.subscribe-link {
+  width: 100%;
+  justify-content: center;
+  font-weight: bold;
+  border: none;
+  font-size: 14px;
+  margin: 0 auto;
+  margin: 70px 0;
+}
+
+.top-line {
+  margin-bottom: 20px;
+}
+
+.bottom-line {
+  margin-top: 70px;
+}
+
+.subscribe-link-hr {
+  width: 60px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.bg-get {
+  margin-top: 30px;
+}
+
+.bg-get h2 {
+  font-size: 25px;
+}
+
+/* aside editor picks */
+.aside {
+  float: right;
+}
+
+.editor-picks {
+  padding: 10px 20px;
+  font-size: small;
+  width: 317px;
+  position: absolute;
+}
+
+.editor-picks .editor-picks-items {
+  float: right;
+}
+
+.black {
+  color: #000;
+}
+
+.black :hover {
+  text-decoration: underline;
+}
+
+.Editors-picks hr {
+  width: 50px;
+}
+
+.editor-picks h3 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.social-media-icons li {
+  position: relative;
+}
+
+.footer-links-li {
+  line-height: 1.7em;
+}
+
+.bottom-ul-social-icons li {
+  margin-left: 40px;
+}
+
+.social-icons .social-media-icons li {
+  margin-left: 20px;
+  background-color: #eee;
+  width: 27px;
+  height: 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.editor-picks .editor-picks-items li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.extra-info p a {
+  color: #466880;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+  color: #333;
+}
+
+.most-popular a:hover {
+  color: #466880;
+}
+
+.editor-picks .editor-picks-items li a {
+  display: flex;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.iframe-con {
+  width: 610px;
+  height: 360px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+/*  Inflation section  */
+.inflation-container {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 30px;
+  text-align: left;
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: 0.7px;
+}
+
+.inflation-container .inflation-container-title {
+  text-align: left;
+}
+
+.inflation-container .inflation-container-subtitle {
+  font-weight: 700;
+  margin: 10px 0;
+  color: gray;
+}
+
+.inflation-container .image-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  align-items: baseline;
+}
+
+.inflation-container-subtilte p {
+  text-align: left;
+  font-size: 13px;
+  margin: 20px 0;
+  margin-bottom: 20px;
+}
+
+/* EXTRA INFO */
+.extra-info p {
+  font-size: 12px;
+  text-align: center;
+  color: #466880;
+}
+
+.extra-info p a:hover {
+  text-decoration: underline;
+}
+
+/*  comments-media-sec  */
+.social-media-icons {
+  position: relative;
+  left: 300px;
+  bottom: 56px;
+}
+
+.social-icons button {
+  padding: 7px 70px;
+  position: relative;
+  background-color: #567b95;
+  border-radius: 3px;
+  border: 0;
+  color: #fff;
+}
+
+/**************  links  ****************/
+.links {
+  max-width: 1280px;
+  margin: 20px auto 50px;
+  padding: 40px;
+}
+
+.links-logo div {
+  border-top: 1px #e2e2e2 solid;
+  justify-content: space-between;
+  margin-top: 3px;
+}
+
+.mid-links {
+  justify-content: space-between;
+  margin: 20px 0;
+  border-bottom: 1px solid #e2e2e2;
+  padding-bottom: 10px;
+}
+
+.mid-links li a:hover {
+  text-decoration: underline;
+  color: #333;
+}
+
+.goto li a:hover {
+  text-decoration: underline;
+}
+
+.footer-links {
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+.subscribe-link p {
+  position: relative;
+  left: 250px;
+  margin: 5px 0;
+}
+
+.subscribe-link-section {
+  color: #000;
+}
+
+.mid-links div {
+  flex: 1;
+  text-decoration: none;
+  color: #000;
+}
+
+.mid-links .li-bold {
+  font-weight: bolder;
+  font-size: 16px;
+  text-decoration: none;
+  color: #000;
+}
+
+.links .mid-links div:last-child {
+  border-left: 1px solid #e2e2e2;
+  padding-left: 15px;
+}
+
+.links .mid-links div:last-child ul li:nth-child(7) {
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.bottom-social-media-icons {
+  margin-top: 30px;
+  margin-bottom: 100px;
+  justify-content: space-between;
+}
+
+.bottom-social-media-icons button {
+  padding: 7px 12px;
+  background-color: #466880;
+  border-radius: 5px;
+}
+
+/*  spacs-astronomy  */
+.grid {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.grid-1 {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.grid-section-title {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+  position: relative;
+  bottom: 10px;
+}
+
+.grid-section-title-hr-astronomy {
+  width: 850px;
+  position: relative;
+  bottom: 30px;
+  height: 3px;
+  background-color: #000;
+}
+
+.astronomy-title {
+  position: relative;
+  left: 10px;
+}
+
+.gird-section-most-popular-hr {
+  width: 340px;
+  position: relative;
+  bottom: 30px;
+  height: 3px;
+  background-color: #000;
+}
+
+.grid-section-title h3 {
+  font-size: 16px;
+}
+
+.grid-section {
+  display: grid;
+  grid-auto-rows: 600px;
+  grid-template-columns: 70% 30%;
+  grid-gap: 1.5em;
+  margin-left: 10px;
+}
+
+.space-astronomy {
+  display: grid;
+  background-color: white;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.most-popular {
+  display: grid;
+  background-color: white;
+  grid-template-rows: repeat(10, 1fr);
+}
+
+.most-popular-hr {
+  position: relative;
+  right: 7px;
+  top: 10px;
+}
+
+.editor-pick-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.editor-pick-section .editors-pick-images-section img {
+  width: 280px;
+}
+
+.editors-pick-images-section {
+  margin-right: 10px;
+}
+
+.editors-picks-title-hr {
+  margin-top: 20px;
+}
+
+.Editors-picks-hr {
+  width: 850px;
+  position: relative;
+  bottom: 30px;
+  font-weight: bolder;
+  background-color: #000;
+  height: 3px;
+}
+
+.editors-picks-grid-title {
+  font-size: 16px;
+  margin: 0 0 10px 10px;
+}
+
+.goto {
+  color: #000;
+  font-size: 12px;
+}
+
+/* footer */
+.links .links-end ul {
+  justify-content: space-between;
+  padding: 10px 80px;
+}
+
+.links .links-end ul a {
+  text-decoration: none;
+  color: #666;
+  font-size: 11px;
+}
+
+.links .links-end ul a:not(:last-child) {
+  margin-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-top: 1px solid black;
+  background-color: #fff;
+}
+
+.fixed-footer {
+  border-top: 1px solid #333;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #fff;
+}
+
+.fixed-footer .container {
+  padding: 10px;
+  font-size: 15px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.fixed-footer-container {
+  justify-content: space-between;
+}
+
+.expand-text {
+  position: relative;
+  left: 200px;
+}
